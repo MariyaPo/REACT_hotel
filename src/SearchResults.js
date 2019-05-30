@@ -10,7 +10,7 @@ const SearchResults = props => {
       <td>{data.firstName}</td>
       <td>{data.surname}</td>
       <td>{data.email}</td>
-      <td>{data.roomID}</td>
+      <td>{data.roomId}</td>
       <td>{data.checkInDate}</td>
       <td>{data.checkOutDate}</td>
       <td>{moment(data.checkOutDate).diff(data.checkInDate, "days")}</td>

@@ -24,17 +24,17 @@ class App extends Component {
           <TouristInfoCards
             source="https://www.lastminute.com/holidays/img/united-kingdom/glasgow.jpg"
             cityName="Glasgow"
-            link="peoplemakeglasgow.com"
+            link="https://www.peoplemakeglasgow.com"
           />
           <TouristInfoCards
             source="https://www.visitmanchester.com/imageresizer/?image=%2Fdbimgs%2FOlympic%20Parade%20nav.jpg&action=FeaturedItems3x2"
             cityName="Manchester"
-            link="visitmanchester.com"
+            link="https://www.visitmanchester.com"
           />
           <TouristInfoCards
             source="https://feweek.co.uk/wp-content/uploads/2018/09/p4-aeb-london-feat.jpg"
             cityName="London"
-            link="visitlondon.com"
+            link="https://www.visitlondon.com"
           />
         </div>
         <Bookings />

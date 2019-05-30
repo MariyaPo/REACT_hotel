@@ -5,9 +5,9 @@ class Search extends React.Component {
   setInputRef = input => {
     this.input = input;
   };
-  inputShow = event => {
+  handleSubmit = event => {
     event.preventDefault();
-    this.props.Search(this.imput.value);
+    this.props.search(this.input.value);
   };
   render() {
     return (
@@ -17,7 +17,10 @@ class Search extends React.Component {
         </div>
         <div className="row search-wrapper">
           <div className="col">
-            <form className="form-group search-box" onSubmit={this.inputShow}>
+            <form
+              className="form-group search-box"
+              onSubmit={this.handleSubmit}
+            >
               <label htmlFor="customerName">Customer name</label>
               <input
                 ref={this.setInputRef}
