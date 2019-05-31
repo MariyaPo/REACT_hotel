@@ -7,7 +7,7 @@ export default class Bookings extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      fakeBookings: FakeBookings
+      fakeBookings: null
     };
   }
 
