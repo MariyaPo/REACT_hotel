@@ -71,6 +71,10 @@ tr {
   margin-left: 50%;
 }
 
+.rowColor {
+  background-color: #5b5757;
+  color: white;
+}
 .footer {
   padding-top: 20px;
   text-align: left;
